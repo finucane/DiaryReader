@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Retries</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>retries</string>
+			<key>DefaultValue</key>
+			<integer>5</integer>
+			<key>MinimumValue</key>
+			<integer>1</integer>
+			<key>MaximumValue</key>
+			<integer>10</integer>
+			<key>MinimumValueImage</key>
+			<string></string>
+			<key>MaximumValueImage</key>
+			<string></string>
+		</dict>
+
+
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Timeout</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>timeout</string>
+			<key>DefaultValue</key>
+			<integer>60</integer>
+			<key>MinimumValue</key>
+			<integer>1</integer>
+			<key>MaximumValue</key>
+			<integer>200</integer>
+			<key>MinimumValueImage</key>
+			<string></string>
+			<key>MaximumValueImage</key>
+			<string></string>
+		</dict>
+
+
+
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Max Connections</string>
+		</dict>
+
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>maxConnections</string>
+			<key>DefaultValue</key>
+			<integer>3</integer>
+			<key>MinimumValue</key>
+			<integer>1</integer>
+			<key>MaximumValue</key>
+			<integer>30</integer>
+			<key>MinimumValueImage</key>
+			<string></string>
+			<key>MaximumValueImage</key>
+			<string></string>
+		</dict>
+
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Random URL Format</string>
+		</dict>
+
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Key</key>
+			<string>randomFormat</string>
+			<key>DefaultValue</key>
+			<string>http://www.blogger.com/next-blog?navBar=true&amp;blogID=%@</string>
+		</dict>
+
+	</array>
+</dict>
+</plist>

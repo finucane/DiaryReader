@@ -1,0 +1,8 @@
+This is an ebook reader I wrote 3 years ago while learning how to write iOS apps. Not a single person ever bought it, so didn't spend any effort on it after the beta release. It probably leaks memory and the network error handling is primitive. Also the parsing is not at all optimized, it's based on string replacement. Also its use of UIKit is still at the stumbling along blindly stage most likely, I haven't read the code in ages.
+
+It does try and mimic the real ebook reader that people were using at that time, "stanza", in its user interface. You can tap the center of the page and get controls to do table of contents, change the font size and color, and stuff like that.
+
+To run it (in the simulator most likely) build it and then type any likely word in the url text field (since you probably don't know any blogger urls). For instance "cats". A blogger url around that word will be generated. Once you have a blog (which will be like a book on the ebook reader) you can tap the icon that looks like a die to add a random blog to your list of books.
+
+It uses multithreading to paginate in the background, for what it's worth.
+
